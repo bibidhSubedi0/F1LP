@@ -1,0 +1,81 @@
+FastF1
+│
+├── Cache
+│   └── Stores all downloaded session files locally
+│
+├── get_session(year, gp, session_name)
+│   └── returns: Session object
+│
+└── Session (e.g., session = get_session(2023, 'Monaco', 'R'))
+    ├── .load()                             # Downloads & parses session data
+    │
+    ├── .event                             # Metadata about the event (date, name, location)
+    │
+    ├── .drivers                           # List of driver numbers in the session
+    │
+    ├── .results                           # Final classification table
+    │   ├── Position
+    │   ├── Driver
+    │   ├── Team
+    │   ├── Time
+    │   └── Points
+    │
+    ├── .laps (pandas.DataFrame)           # All laps by all drivers
+    │   ├── Each row = 1 lap
+    │   ├── Columns:
+    │   │   ├── Driver (e.g., 'VER')
+    │   │   ├── DriverNumber (e.g., '1')
+    │   │   ├── Team
+    │   │   ├── LapNumber
+    │   │   ├── LapTime
+    │   │   ├── Stint
+    │   │   ├── Compound
+    │   │   ├── PitInTime / PitOutTime
+    │   │   ├── TrackStatus
+    │   │   ├── IsAccurate
+    │   │   ├── Sector1Time / Sector2Time / Sector3Time
+    │   │   ├── SpeedI1 / SpeedI2 / SpeedFL
+    │   │   └── LapStartTime
+    │   │
+    │   ├── .pick_driver('VER')            # returns laps for one driver
+    │   └── .pick_fastest()                # returns single fastest lap
+    │
+    ├── Lap (from .laps row or .pick_fastest())
+    │   ├── .get_car_data()                # returns Telemetry object
+    │   │   └── .add_distance()            # adds cumulative distance to telemetry
+    │   │   └── returns: Telemetry (pandas.DataFrame)
+    │   │       ├── Time
+    │   │       ├── RPM
+    │   │       ├── Speed
+    │   │       ├── Throttle
+    │   │       ├── Brake (bool)
+    │   │       ├── nGear
+    │   │       ├── DRS (0/1)
+    │   │       └── Distance (added)
+    │   │
+    │   ├── .get_pos_data()                # returns X, Y track coordinates
+    │   │   └── DataFrame:
+    │   │       ├── Time
+    │   │       ├── X
+    │   │       ├── Y
+    │   │       └── Z (if available)
+    │
+    ├── .car_data                          # dict of raw telemetry for all cars (used internally)
+    │
+    ├── .timing_data                       # raw parsed timing info (advanced use)
+    │
+    ├── .weather_data (pandas.DataFrame)
+    │   ├── Time
+    │   ├── AirTemp
+    │   ├── TrackTemp
+    │   ├── Humidity
+    │   ├── WindSpeed
+    │   ├── WindDirection
+    │   └── Rainfall
+    │
+    ├── .track_status (pandas.DataFrame)
+    │   ├── Time
+    │   └── Status (track condition: dry, yellow, red, SC, VSC)
+    │
+    └── .session_info                      # raw metadata of session (dict)
+

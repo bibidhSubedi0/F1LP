@@ -1,0 +1,48 @@
+Hypothesises (idk if it is a word)
+
+Goal:
+    During the grand prix, based on
+        1. Telemetry
+        2. Past laps
+        3. Qualifying
+        4. Prerace
+    predict the softmax values for each driver's probability to win the race
+
+Prerace features (Slightly difficult to obtain, idk if they are worth it, aile lekhdai ma k gai raxa)
+    -> driver's average position on the track in last 10 years
+    -> driver's status on team switch this season?
+    -> driver's championship points before this race
+    -> constructor's points before this race
+    -> track type (street/permanent/hybrid)
+    -> expected weather (rain, dry, mixed)
+
+Qualifying Features
+    -> Position
+    -> Average of best 3 lap times? maybe idfk
+    -> Rank in S1 S2 and S3 (idk if this is that big)
+    -> Top speed at speed traps
+    -> delta to pole position
+    -> tire used for best lap (if available)
+
+Past Laps from 0 to n
+    -> Position
+    -> Average Lap time (or some other better metric)
+    -> Lap time variance (consistency)
+    -> Number of pit stops
+    -> time lost/gained in pits
+    -> positions gained/lost since race start
+    -> delta to leader
+    -> time gap to car ahead and behind
+
+Telemetry
+    -> speed over lap
+    -> throttle average and variance
+    -> brake usage percentage
+    -> DRS usage frequency
+    -> gear shifts per lap
+    -> steering angle variation (cornering stability?)
+    -> relative X, Y, Z positions (could use to track sector behavior)
+    -> micro deltas per sector (maybe by comparing to previous laps)
+
+
+Manual feature pruning + PCA or just variance thresholding?
