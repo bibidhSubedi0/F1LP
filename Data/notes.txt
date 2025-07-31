@@ -79,3 +79,35 @@ FastF1
     │
     └── .session_info                      # raw metadata of session (dict)
 
+
+
+| Layer         | Tech                          | Reason                             |
+| ------------- | ----------------------------- | ---------------------------------- |
+| Ingestion     |   WebSocket / Kafka           | Real-time telemetry stream parsing |
+| ML Model      |   XGBoost / LightGBM          | Fast inference, interpretable      |
+| Model Serving |   FastAPI + Uvicorn           | Lightweight, Python-native         |
+| Backend       |   FastAPI + PostgreSQL        | Serve data, metadata, users        |
+| Frontend      |   React + Tailwind + Plotly   | Dynamic visual dashboard           |
+| CI/CD         |   GitHub Actions              | Auto-test & deploy pipeline        |
+| Deployment    |   Docker + Kubernetes         | Scalable and cloud-ready           |
+| Hosting       |   AWS (EC2, EKS)              | Real-time compute + autoscale      |
+| Monitoring    |   Prometheus + Grafana        | Track latency, model drift         |
+
+
+f1-predictor/
+├── model/
+│   ├── train.py
+│   └── inference.py
+├── api/
+│   ├── main.py (FastAPI app)
+│   └── websocket.py
+├── dashboard/
+│   └── react-app/
+├── data/
+│   └── historical/
+├── scripts/
+│   └── simulate_live.py
+├── docker/
+├── k8s/
+├── requirements.txt
+└── README.md

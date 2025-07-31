@@ -9,6 +9,7 @@ data = {
         "driver_avg_position_10yrs": 8.7,
         "driver_team_switch": False,
         "driver_championship_points": 45,
+        "constructor_championship_points": 120,
         "track_type": "street",
         "expected_weather": "dry"
     },
