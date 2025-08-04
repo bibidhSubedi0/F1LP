@@ -11,38 +11,112 @@ Goal:
 Prerace features (Slightly difficult to obtain, idk if they are worth it, aile lekhdai ma k gai raxa)
     -> driver's average position on the track in last 10 years
     -> driver's status on team switch this season?
-    -> driver's championship points before this race
-    -> constructor's points before this race
-    -> track type (street/permanent/hybrid)
-    -> expected weather (rain, dry, mixed)
+    -> driver's championship points before this race [U]
+    -> constructor's points before this race [U]
+    -> track type (street/permanent/hybrid) [U]
+    -> expected weather (rain, dry, mixed) [U]
 
 Qualifying Features
-    -> Position
-    -> Average of best 3 lap times? maybe idfk
+    -> Position [U]
+    -> Average of best 3 lap times? maybe idfk [P]
     -> Rank in S1 S2 and S3 (idk if this is that big)
-    -> Top speed at speed traps
-    -> delta to pole position
-    -> tire used for best lap (if available)
+    -> Top speed at speed traps [P]
+    -> delta to pole position [U]
+    -> tire used for best lap (if available) [U]
 
 Past Laps from 0 to n
-    -> Position
-    -> Average Lap time (or some other better metric)
-    -> Lap time variance (consistency)
-    -> Number of pit stops
-    -> time lost/gained in pits
-    -> positions gained/lost since race start
-    -> delta to leader
-    -> time gap to car ahead and behind
+    -> Position [U]
+    -> Average Lap time (or some other better metric) [U]
+    -> Lap time variance (consistency) [U]
+    -> Number of pit stops [U]
+    -> time lost/gained in pits [U]
+    -> positions gained/lost since race start [U]
+    -> delta to leader [U]
+    -> time gap to car ahead and behind [U]
 
 Telemetry
-    -> speed over lap
+    -> speed over lap [U]
     -> throttle average and variance
-    -> brake usage percentage
-    -> DRS usage frequency
-    -> gear shifts per lap
-    -> steering angle variation (cornering stability?)
+    -> brake usage percentage [U]
+    -> DRS usage frequency [U]
+    -> gear shifts per lap [U]
+    -> steering angle variation (cornering stability?) [U]
     -> relative X, Y, Z positions (could use to track sector behavior)
-    -> micro deltas per sector (maybe by comparing to previous laps)
+    -> micro deltas per sector (maybe by comparing to previous laps) [U]
 
 
 Manual feature pruning + PCA or just variance thresholding?
+
+
+---------------------Featues i decided on for now ------------------------------------
+
+example = RacePredictionFeatures(
+    driverId="max_verstappen",
+    teamId="red_bull_racing",
+    timestamp=datetime(2025, 8, 4, 19, 23, 9),
+    prerace=PreraceFeatures(
+        driverChampPoints=275,
+        constructorChampPoints=400,
+        trackType="street",
+        expectedWeather="dry"
+    ),
+    qualifying=QualifyingFeatures(
+        gridPosition=1,
+        best3LapAvg=87.342,
+        deltaToPole=0.0,
+        tireBestLap="soft"
+    ),
+    pastLaps=PastLapsFeatures(
+        currentLap=20,
+        position=1,
+        avgLapTime=88.123,
+        numPitStops=1,
+        timeLostInPits=22.8,
+        positionsGainedLost=0,
+        deltaToLeader=0.0,
+        gapAhead=None,
+        gapBehind=3.4
+    ),
+    telemetry=TelemetryFeatures(
+        avgSpeed=198.7,
+        throttleAvg=91.5,
+        brakeUsagePct=12.2,
+        drsUsageFreq=3,
+        gearShiftsPerLap=52
+    )
+)
+
+
+
+| Feature                                   | FastF1 Source/Method                                                                    |
+| ------------------------------------------| ------------------------------------------------------------------------------------------- |
+| driverId, teamId                          | driver\["Driver"] / driver\["Team"] or session.drivers                                      |
+| timestamp                                 | session.laps\["Time"] or datetime.now()                                                     |
+| driverAvgTrackPos10Yr                     | Not in FastF1, needs external stats or manual calculation                                   |
+| teamSwitchThisSeason                      | Not in FastF1, needs external data                                                          |
+| driverChampPoints, constructorChampPoints | Not in FastF1, needs external data                                                          |
+| trackType                                 | Not in FastF1, can be hardcoded                                                             |
+| expectedWeather                           | session.weather\_data                                                                       |
+| gridPosition                              | session.results\["GridPosition"], or session.laps.pick\_fastest().loc\[driver]\["Position"] |
+| best3LapAvg                               | session.laps.pick\_driver(driver).nsmallest(3, "LapTime")                                   |
+| rankS1, rankS2, rankS3                    | sector times: session.laps.pick\_driver(driver)\["Sector1Time"] etc.                        |
+| topSpeedTrap                              | session.car\_data.pick\_driver(driver)\["SpeedST"] or session.results                       |
+| deltaToPole                               | Best lap time - pole time                                                                   |
+| tireBestLap                               | session.laps.pick\_driver(driver)\["Compound"]                                              |
+| currentLap                                | session.laps.pick\_driver(driver).iloc\[-1]\["LapNumber"]                                   |
+| position (race)                           | session.laps.pick\_driver(driver).iloc\[-1]\["Position"]                                    |
+| avgLapTime                                | session.laps.pick\_driver(driver).tail(n)\["LapTime"].mean()                                |
+| lapTimeVariance                           | session.laps.pick\_driver(driver).tail(n)\["LapTime"].var()                                 |
+| numPitStops                               | session.laps.pick\_driver(driver)\["PitInTime"].count()                                     |
+| timeLostInPits                            | Calculate: sum(outlap + pitstop duration)                                                   |
+| positionsGainedLost                       | session.results\["GridPosition"] - session.laps.pick\_driver(driver).iloc\[-1]\["Position"] |
+| deltaToLeader                             | session.laps.pick\_driver(driver).iloc\[-1]\["Time"] - leader's time                        |
+| gapAhead, gapBehind                       | session.laps.pick\_driver(driver).iloc\[-1]\["Time"] - next/previous car                    |
+| avgSpeed                                  | session.car\_data.pick\_driver(driver)\["Speed"].mean()                                     |
+| throttleAvg, throttleVar                  | session.car\_data.pick\_driver(driver)\["Throttle"].mean()/var()                            |
+| brakeUsagePct                             | Calculate from "Brake" column in telemetry                                                  |
+| drsUsageFreq                              | session.car\_data.pick\_driver(driver)\["DRS"].sum()                                        |
+| gearShiftsPerLap                          | session.car\_data.pick\_driver(driver)\["nGear"].diff().abs().sum()                         |
+| steeringVar                               | session.car\_data.pick\_driver(driver)\["Steer"].var()                                      |
+| relPosX, relPosY, relPosZ                 | session.pos\_data.pick\_driver(driver)\[\["X","Y","Z"]]                                     |
+| sectorMicroDeltas                         | Need to calculate from sector times lap-to-lap                                              |
