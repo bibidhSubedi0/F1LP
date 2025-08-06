@@ -1,62 +1,400 @@
 {
-    "type": "object",
-    "properties": {
-        "prerace": {
-            "type": "object",
-            "properties": {
-                "driver_avg_position_10yrs": {
-                    "type": "number"
-                },
-                "driver_team_switch": {
-                    "type": "boolean"
-                },
-                "driver_championship_points": {
-                    "type": "number"
-                },
-                "constructor_championship_points": {
-                    "type": "number"
-                },
-                "track_type": {
-                    "type": "string",
-                    "enum": [
-                        "street",
-                        "permanent",
-                        "hybrid"
-                    ]
-                },
-                "expected_weather": {
-                    "type": "string",
-                    "enum": [
-                        "rain",
-                        "dry",
-                        "mixed"
-                    ]
-                }
+  "$defs": {
+    "PastLapsFeatures": {
+      "properties": {
+        "currentLap": {
+          "anyOf": [
+            {
+              "type": "integer"
             },
-            "required": [
-                "driver_championship_points",
-                "constructor_championship_points",
-                "track_type",
-                "expected_weather"
-            ]
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Current lap number",
+          "title": "Currentlap"
         },
-        "qualifying": {
-            "type": "object",
-            "properties": {
-                "position": {
-                    "type": "integer"
-                },
-                "delta_to_pole": {
-                    "type": "number"
-                }
+        "position": {
+          "anyOf": [
+            {
+              "type": "integer"
             },
-            "required": [
-                "position"
-            ]
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Current race position",
+          "title": "Position"
+        },
+        "avgLapTime": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Average lap time over recent laps (seconds)",
+          "title": "Avglaptime"
+        },
+        "numPitStops": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Number of pit stops so far",
+          "title": "Numpitstops"
+        },
+        "timeLostInPits": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Total time lost in pits (seconds)",
+          "title": "Timelostinpits"
+        },
+        "positionsGainedLost": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Net positions gained or lost since race start",
+          "title": "Positionsgainedlost"
+        },
+        "deltaToLeader": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Time gap to race leader (seconds)",
+          "title": "Deltatoleader"
+        },
+        "gapAhead": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Gap to car ahead (seconds)",
+          "title": "Gapahead"
+        },
+        "gapBehind": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Gap to car behind (seconds)",
+          "title": "Gapbehind"
         }
+      },
+      "title": "PastLapsFeatures",
+      "type": "object"
     },
-    "required": [
-        "prerace",
-        "qualifying"
-    ]
+    "PreraceFeatures": {
+      "properties": {
+        "driverChampPoints": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Driver's championship points before this race",
+          "title": "Driverchamppoints"
+        },
+        "constructorChampPoints": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Constructor's points before this race",
+          "title": "Constructorchamppoints"
+        },
+        "trackType": {
+          "anyOf": [
+            {
+              "enum": [
+                "street",
+                "permanent",
+                "hybrid"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Type of circuit",
+          "title": "Tracktype"
+        },
+        "expectedWeather": {
+          "anyOf": [
+            {
+              "enum": [
+                "rain",
+                "dry",
+                "mixed"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Expected weather conditions",
+          "title": "Expectedweather"
+        }
+      },
+      "title": "PreraceFeatures",
+      "type": "object"
+    },
+    "QualifyingFeatures": {
+      "properties": {
+        "gridPosition": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Starting grid position",
+          "title": "Gridposition"
+        },
+        "best3LapAvg": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Average of best 3 qualifying lap times (seconds)",
+          "title": "Best3Lapavg"
+        },
+        "deltaToPole": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Delta to pole position in seconds",
+          "title": "Deltatopole"
+        },
+        "tireBestLap": {
+          "anyOf": [
+            {
+              "enum": [
+                "SOFT",
+                "MEDIUM",
+                "HARD",
+                "INTER",
+                "WET"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Tire compound used for best lap",
+          "title": "Tirebestlap"
+        }
+      },
+      "title": "QualifyingFeatures",
+      "type": "object"
+    },
+    "TelemetryFeatures": {
+      "properties": {
+        "avgSpeed": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Average speed over lap (km/h)",
+          "title": "Avgspeed"
+        },
+        "throttleAvg": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Average throttle percentage over lap",
+          "title": "Throttleavg"
+        },
+        "brakeUsagePct": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Brake usage as a percentage of lap",
+          "title": "Brakeusagepct"
+        },
+        "drsUsageFreq": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "DRS activation count/lap",
+          "title": "Drsusagefreq"
+        },
+        "gearShiftsPerLap": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Number of gear shifts per lap",
+          "title": "Gearshiftsperlap"
+        }
+      },
+      "title": "TelemetryFeatures",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "driverId": {
+      "description": "Unique driver identifier",
+      "title": "Driverid",
+      "type": "string"
+    },
+    "teamId": {
+      "description": "Unique team identifier",
+      "title": "Teamid",
+      "type": "string"
+    },
+    "timestamp": {
+      "description": "UTC timestamp of sample",
+      "format": "date-time",
+      "title": "Timestamp",
+      "type": "string"
+    },
+    "prerace": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/PreraceFeatures"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "qualifying": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/QualifyingFeatures"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "pastLaps": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/PastLapsFeatures"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "telemetry": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TelemetryFeatures"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "driverId",
+    "teamId",
+    "timestamp"
+  ],
+  "title": "RacePredictionFeatures",
+  "type": "object"
 }
