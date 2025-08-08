@@ -1,0 +1,707 @@
+{
+  "year": 2023,
+  "grand_prix": "Austrian Grand Prix",
+  "session": "R",
+  "drivers": [
+    {
+      "driverId": "1",
+      "teamId": "Red Bull Racing",
+      "timestamp": "2025-08-08T17:47:20.265651",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 1,
+        "best3LapAvg": 67.799,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 1,
+        "avgLapTime": 72.304323,
+        "numPitStops": 4,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.2647525101286,
+        "throttleAvg": 45.4863484234631,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 11493,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "16",
+      "teamId": "Ferrari",
+      "timestamp": "2025-08-08T17:47:20.272085",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 2,
+        "best3LapAvg": 68.853666,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 2,
+        "avgLapTime": 72.376929,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.7837472843638,
+        "throttleAvg": 57.15427749398156,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 15917,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "11",
+      "teamId": "Red Bull Racing",
+      "timestamp": "2025-08-08T17:47:20.276436",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 15,
+        "best3LapAvg": 68.32,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 3,
+        "avgLapTime": 72.546408,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.34161235394282,
+        "throttleAvg": 39.30952380952381,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 27999,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "4",
+      "teamId": "McLaren",
+      "timestamp": "2025-08-08T17:47:20.280746",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 4,
+        "best3LapAvg": 68.89,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 5,
+        "avgLapTime": 72.675126,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.56966707768188,
+        "throttleAvg": 46.346632611120896,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 45747,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "14",
+      "teamId": "Aston Martin",
+      "timestamp": "2025-08-08T17:47:20.286237",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 7,
+        "best3LapAvg": 69.180666,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 6,
+        "avgLapTime": 72.731323,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.32156068345958,
+        "throttleAvg": 41.91307028360049,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 9281,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "55",
+      "teamId": "Ferrari",
+      "timestamp": "2025-08-08T17:47:20.291136",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 3,
+        "best3LapAvg": 68.909666,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 4,
+        "avgLapTime": 72.605408,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.57853326287358,
+        "throttleAvg": 45.59200869003582,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 33379,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "63",
+      "teamId": "Mercedes",
+      "timestamp": "2025-08-08T17:47:20.295407",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 11,
+        "best3LapAvg": 69.362,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 8,
+        "avgLapTime": 72.986056,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 129.97833362691563,
+        "throttleAvg": 47.49527332511303,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 31690,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "44",
+      "teamId": "Mercedes",
+      "timestamp": "2025-08-08T17:47:20.299700",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 5,
+        "best3LapAvg": 69.202333,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 7,
+        "avgLapTime": 72.85638,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 130.15195819388174,
+        "throttleAvg": 48.28107568551465,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 26025,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "18",
+      "teamId": "Aston Martin",
+      "timestamp": "2025-08-08T17:47:20.306582",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 6,
+        "best3LapAvg": 68.541666,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 10,
+        "avgLapTime": 73.135915,
+        "numPitStops": 4,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.31172567670717,
+        "throttleAvg": 41.39671774998532,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 23831,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "10",
+      "teamId": "Alpine",
+      "timestamp": "2025-08-08T17:47:20.311275",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 9,
+        "best3LapAvg": 69.112666,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 9,
+        "avgLapTime": 73.116535,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.38905525218718,
+        "throttleAvg": 43.05522282895896,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 16031,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "23",
+      "teamId": "Williams",
+      "timestamp": "2025-08-08T17:47:20.315621",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 10,
+        "best3LapAvg": 69.605,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 71,
+        "position": 11,
+        "avgLapTime": 73.286957,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 129.76140567200986,
+        "throttleAvg": 45.610298866772354,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 20259,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "24",
+      "teamId": "Alfa Romeo",
+      "timestamp": "2025-08-08T17:47:20.320428",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 17,
+        "best3LapAvg": 69.837666,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 70,
+        "position": 14,
+        "avgLapTime": 73.689142,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.4635957959016,
+        "throttleAvg": 55.97956667253831,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 26057,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "2",
+      "teamId": "Williams",
+      "timestamp": "2025-08-08T17:47:20.324697",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 18,
+        "best3LapAvg": 69.689,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 70,
+        "position": 13,
+        "avgLapTime": 73.5713,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.39798015383712,
+        "throttleAvg": 40.516469966531616,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 10186,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "31",
+      "teamId": "Alpine",
+      "timestamp": "2025-08-08T17:47:20.329631",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 12,
+        "best3LapAvg": 69.838,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 70,
+        "position": 12,
+        "avgLapTime": 73.510671,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 126.73950443309259,
+        "throttleAvg": 41.889407550936525,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 41039,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "77",
+      "teamId": "Alfa Romeo",
+      "timestamp": "2025-08-08T17:47:20.333943",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 14,
+        "best3LapAvg": 69.975333,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 70,
+        "position": 16,
+        "avgLapTime": 73.948342,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.5811167870354,
+        "throttleAvg": 53.395132405613296,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 37856,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "81",
+      "teamId": "McLaren",
+      "timestamp": "2025-08-08T17:47:20.338921",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 13,
+        "best3LapAvg": 69.886333,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 70,
+        "position": 18,
+        "avgLapTime": 74.002514,
+        "numPitStops": 4,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 126.72981621748576,
+        "throttleAvg": 45.29035288591392,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 48879,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "21",
+      "teamId": "AlphaTauri",
+      "timestamp": "2025-08-08T17:47:20.343134",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 20,
+        "best3LapAvg": 69.908,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 70,
+        "position": 15,
+        "avgLapTime": 73.761571,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 126.9358522693911,
+        "throttleAvg": 69.31742117315484,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 19547,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "20",
+      "teamId": "Haas F1 Team",
+      "timestamp": "2025-08-08T17:47:20.348032",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 19,
+        "best3LapAvg": 70.247333,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 70,
+        "position": 19,
+        "avgLapTime": 74.02,
+        "numPitStops": 3,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 125.33230579531443,
+        "throttleAvg": 67.25582760847865,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 42332,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "22",
+      "teamId": "AlphaTauri",
+      "timestamp": "2025-08-08T17:47:20.352724",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 16,
+        "best3LapAvg": 69.801,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 70,
+        "position": 17,
+        "avgLapTime": 73.978285,
+        "numPitStops": 4,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 128.45129469790382,
+        "throttleAvg": 42.250132112031004,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 20408,
+        "gearShiftsPerLap": null
+      }
+    },
+    {
+      "driverId": "27",
+      "teamId": "Haas F1 Team",
+      "timestamp": "2025-08-08T17:47:20.357249",
+      "prerace": {
+        "driverChampPoints": null,
+        "constructorChampPoints": null,
+        "trackType": null,
+        "expectedWeather": null
+      },
+      "qualifying": {
+        "gridPosition": 8,
+        "best3LapAvg": 71.157,
+        "deltaToPole": null,
+        "tireBestLap": null
+      },
+      "pastLaps": {
+        "currentLap": 13,
+        "position": null,
+        "avgLapTime": 82.047916,
+        "numPitStops": 2,
+        "timeLostInPits": null,
+        "positionsGainedLost": null,
+        "deltaToLeader": null,
+        "gapAhead": null,
+        "gapBehind": null
+      },
+      "telemetry": {
+        "avgSpeed": 27.359432799013565,
+        "throttleAvg": 65.6144677353062,
+        "brakeUsagePct": null,
+        "drsUsageFreq": 18307,
+        "gearShiftsPerLap": null
+      }
+    }
+  ]
+}
