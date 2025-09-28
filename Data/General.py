@@ -4,7 +4,7 @@ import os
 os.makedirs('cache', exist_ok=True)
 fastf1.Cache.enable_cache('cache')
 
-years = [2025]
+years = [2024]
 Sessions = ["R","Q","FP1","FP2","FP3","SSP","S"]
 
 def GetAllRaces(year):
