@@ -1,388 +1,360 @@
-Driver,Constructor,RaceName,DriverPointsSoFar,ConstructorPointsSoFar
-VER,Red Bull Racing,Bahrain Grand Prix,0.0,0.0
-VER,Red Bull Racing,Saudi Arabian Grand Prix,26.0,44.0
-VER,Red Bull Racing,Abu Dhabi Grand Prix,272.0,371.0
-VER,Red Bull Racing,Australian Grand Prix,51.0,87.0
-VER,Red Bull Racing,Las Vegas Grand Prix,262.0,360.0
-VER,Red Bull Racing,Japanese Grand Prix,51.0,97.0
-VER,Red Bull Racing,Mexico City Grand Prix,254.0,352.0
-VER,Red Bull Racing,Singapore Grand Prix,236.0,333.0
-VER,Red Bull Racing,Canadian Grand Prix,110.0,178.0
-VER,Red Bull Racing,Monaco Grand Prix,102.0,170.0
-VER,Red Bull Racing,Spanish Grand Prix,135.0,203.0
-VER,Red Bull Racing,Azerbaijan Grand Prix,226.0,323.0
-VER,Red Bull Racing,Emilia Romagna Grand Prix,77.0,141.0
-VER,Red Bull Racing,British Grand Prix,160.0,232.0
-VER,Red Bull Racing,Dutch Grand Prix,200.0,285.0
-VER,Red Bull Racing,Italian Grand Prix,218.0,311.0
-VER,Red Bull Racing,Hungarian Grand Prix,178.0,250.0
-VER,Red Bull Racing,Belgian Grand Prix,188.0,266.0
-SAR,Williams,Japanese Grand Prix,0.0,0.0
-SAR,Williams,Emilia Romagna Grand Prix,0.0,0.0
-SAR,Williams,Azerbaijan Grand Prix,0.0,6.0
-SAR,Williams,Canadian Grand Prix,0.0,2.0
-SAR,Williams,Dutch Grand Prix,0.0,4.0
-SAR,Williams,Monaco Grand Prix,0.0,0.0
-SAR,Williams,Las Vegas Grand Prix,0.0,16.0
-SAR,Williams,Bahrain Grand Prix,0.0,0.0
-SAR,Williams,Hungarian Grand Prix,0.0,4.0
-SAR,Williams,Singapore Grand Prix,0.0,16.0
-SAR,Williams,Italian Grand Prix,0.0,4.0
-SAR,Williams,Mexico City Grand Prix,0.0,16.0
-SAR,Williams,Australian Grand Prix,0.0,0.0
-SAR,Williams,Saudi Arabian Grand Prix,0.0,0.0
-SAR,Williams,Belgian Grand Prix,0.0,4.0
-SAR,Williams,Spanish Grand Prix,0.0,2.0
-SAR,Williams,Abu Dhabi Grand Prix,0.0,16.0
-SAR,Williams,British Grand Prix,0.0,2.0
-RIC,RB,Canadian Grand Prix,0.0,12.0
-RIC,RB,Hungarian Grand Prix,4.0,17.0
-RIC,RB,Emilia Romagna Grand Prix,0.0,7.0
-RIC,RB,Azerbaijan Grand Prix,5.0,20.0
-RIC,RB,Italian Grand Prix,5.0,20.0
-RIC,RB,Singapore Grand Prix,5.0,20.0
-RIC,RB,Japanese Grand Prix,0.0,6.0
-RIC,RB,Monaco Grand Prix,0.0,8.0
-RIC,RB,Las Vegas Grand Prix,5.0,20.0
-RIC,RB,Mexico City Grand Prix,5.0,20.0
-RIC,RB,Saudi Arabian Grand Prix,0.0,0.0
-RIC,RB,Abu Dhabi Grand Prix,5.0,22.0
-RIC,RB,Bahrain Grand Prix,0.0,0.0
-RIC,RB,Spanish Grand Prix,4.0,16.0
-RIC,RB,Dutch Grand Prix,5.0,20.0
-RIC,RB,British Grand Prix,4.0,16.0
-RIC,RB,Belgian Grand Prix,4.0,19.0
-RIC,RB,Australian Grand Prix,0.0,0.0
-NOR,McLaren,Saudi Arabian Grand Prix,8.0,12.0
-NOR,McLaren,Japanese Grand Prix,27.0,55.0
-NOR,McLaren,Mexico City Grand Prix,227.0,430.0
-NOR,McLaren,Singapore Grand Prix,202.0,390.0
-NOR,McLaren,Emilia Romagna Grand Prix,37.0,69.0
-NOR,McLaren,Canadian Grand Prix,67.0,129.0
-NOR,McLaren,Azerbaijan Grand Prix,189.0,352.0
-NOR,McLaren,Monaco Grand Prix,55.0,99.0
-NOR,McLaren,Abu Dhabi Grand Prix,254.0,467.0
-NOR,McLaren,Australian Grand Prix,12.0,28.0
-NOR,McLaren,Spanish Grand Prix,85.0,157.0
-NOR,McLaren,British Grand Prix,104.0,182.0
-NOR,McLaren,Hungarian Grand Prix,119.0,209.0
-NOR,McLaren,Bahrain Grand Prix,0.0,0.0
-NOR,McLaren,Belgian Grand Prix,137.0,252.0
-NOR,McLaren,Dutch Grand Prix,147.0,280.0
-NOR,McLaren,Italian Grand Prix,173.0,318.0
-NOR,McLaren,Las Vegas Grand Prix,245.0,452.0
-GAS,Alpine,Japanese Grand Prix,0.0,0.0
-GAS,Alpine,Singapore Grand Prix,7.0,11.0
-GAS,Alpine,Abu Dhabi Grand Prix,8.0,12.0
-GAS,Alpine,Hungarian Grand Prix,5.0,7.0
-GAS,Alpine,Bahrain Grand Prix,0.0,0.0
-GAS,Alpine,British Grand Prix,5.0,7.0
-GAS,Alpine,Belgian Grand Prix,5.0,7.0
-GAS,Alpine,Spanish Grand Prix,3.0,4.0
-GAS,Alpine,Las Vegas Grand Prix,8.0,12.0
-GAS,Alpine,Saudi Arabian Grand Prix,0.0,0.0
-GAS,Alpine,Canadian Grand Prix,1.0,1.0
-GAS,Alpine,Emilia Romagna Grand Prix,0.0,0.0
-GAS,Alpine,Dutch Grand Prix,5.0,9.0
-GAS,Alpine,Italian Grand Prix,7.0,11.0
-GAS,Alpine,Monaco Grand Prix,0.0,0.0
-GAS,Alpine,Azerbaijan Grand Prix,7.0,11.0
-GAS,Alpine,Australian Grand Prix,0.0,0.0
-GAS,Alpine,Mexico City Grand Prix,7.0,11.0
-PER,Red Bull Racing,Singapore Grand Prix,97.0,333.0
-PER,Red Bull Racing,Azerbaijan Grand Prix,97.0,323.0
-PER,Red Bull Racing,Italian Grand Prix,93.0,311.0
-PER,Red Bull Racing,Spanish Grand Prix,68.0,203.0
-PER,Red Bull Racing,Dutch Grand Prix,85.0,285.0
-PER,Red Bull Racing,Hungarian Grand Prix,72.0,250.0
-PER,Red Bull Racing,Belgian Grand Prix,78.0,266.0
-PER,Red Bull Racing,British Grand Prix,72.0,232.0
-PER,Red Bull Racing,Canadian Grand Prix,68.0,178.0
-PER,Red Bull Racing,Australian Grand Prix,36.0,87.0
-PER,Red Bull Racing,Japanese Grand Prix,46.0,97.0
-PER,Red Bull Racing,Saudi Arabian Grand Prix,18.0,44.0
-PER,Red Bull Racing,Emilia Romagna Grand Prix,64.0,141.0
-PER,Red Bull Racing,Monaco Grand Prix,68.0,170.0
-PER,Red Bull Racing,Mexico City Grand Prix,98.0,352.0
-PER,Red Bull Racing,Bahrain Grand Prix,0.0,0.0
-PER,Red Bull Racing,Las Vegas Grand Prix,98.0,360.0
-PER,Red Bull Racing,Abu Dhabi Grand Prix,99.0,371.0
-ALO,Aston Martin,Azerbaijan Grand Prix,41.0,65.0
-ALO,Aston Martin,Japanese Grand Prix,16.0,25.0
-ALO,Aston Martin,Mexico City Grand Prix,53.0,77.0
-ALO,Aston Martin,Canadian Grand Prix,24.0,35.0
-ALO,Aston Martin,Saudi Arabian Grand Prix,2.0,3.0
-ALO,Aston Martin,Australian Grand Prix,12.0,13.0
-ALO,Aston Martin,Las Vegas Grand Prix,53.0,77.0
-ALO,Aston Martin,British Grand Prix,32.0,49.0
-ALO,Aston Martin,Italian Grand Prix,41.0,65.0
-ALO,Aston Martin,Belgian Grand Prix,36.0,60.0
-ALO,Aston Martin,Spanish Grand Prix,32.0,49.0
-ALO,Aston Martin,Dutch Grand Prix,40.0,64.0
-ALO,Aston Martin,Bahrain Grand Prix,0.0,0.0
-ALO,Aston Martin,Hungarian Grand Prix,36.0,59.0
-ALO,Aston Martin,Abu Dhabi Grand Prix,53.0,77.0
-ALO,Aston Martin,Monaco Grand Prix,24.0,35.0
-ALO,Aston Martin,Singapore Grand Prix,49.0,73.0
-ALO,Aston Martin,Emilia Romagna Grand Prix,24.0,33.0
-LEC,Ferrari,Mexico City Grand Prix,204.0,353.0
-LEC,Ferrari,Las Vegas Grand Prix,220.0,394.0
-LEC,Ferrari,Belgian Grand Prix,121.0,234.0
-LEC,Ferrari,Hungarian Grand Prix,109.0,214.0
-LEC,Ferrari,Canadian Grand Prix,99.0,185.0
-LEC,Ferrari,Emilia Romagna Grand Prix,59.0,120.0
-LEC,Ferrari,Singapore Grand Prix,194.0,337.0
-LEC,Ferrari,Azerbaijan Grand Prix,176.0,319.0
-LEC,Ferrari,Monaco Grand Prix,74.0,145.0
-LEC,Ferrari,Australian Grand Prix,28.0,49.0
-LEC,Ferrari,Japanese Grand Prix,47.0,93.0
-LEC,Ferrari,Abu Dhabi Grand Prix,232.0,421.0
-LEC,Ferrari,Saudi Arabian Grand Prix,12.0,27.0
-LEC,Ferrari,Dutch Grand Prix,136.0,257.0
-LEC,Ferrari,Bahrain Grand Prix,0.0,0.0
-LEC,Ferrari,British Grand Prix,109.0,203.0
-LEC,Ferrari,Spanish Grand Prix,99.0,185.0
-LEC,Ferrari,Italian Grand Prix,151.0,282.0
-STR,Aston Martin,Saudi Arabian Grand Prix,1.0,3.0
-STR,Aston Martin,Japanese Grand Prix,9.0,25.0
-STR,Aston Martin,Bahrain Grand Prix,0.0,0.0
-STR,Aston Martin,Hungarian Grand Prix,23.0,59.0
-STR,Aston Martin,Dutch Grand Prix,24.0,64.0
-STR,Aston Martin,Spanish Grand Prix,17.0,49.0
-STR,Aston Martin,Belgian Grand Prix,24.0,60.0
-STR,Aston Martin,Mexico City Grand Prix,24.0,77.0
-STR,Aston Martin,Azerbaijan Grand Prix,24.0,65.0
-STR,Aston Martin,Emilia Romagna Grand Prix,9.0,33.0
-STR,Aston Martin,Las Vegas Grand Prix,24.0,77.0
-STR,Aston Martin,Australian Grand Prix,1.0,13.0
-STR,Aston Martin,Canadian Grand Prix,11.0,35.0
-STR,Aston Martin,Italian Grand Prix,24.0,65.0
-STR,Aston Martin,Singapore Grand Prix,24.0,73.0
-STR,Aston Martin,Monaco Grand Prix,11.0,35.0
-STR,Aston Martin,Abu Dhabi Grand Prix,24.0,77.0
-STR,Aston Martin,British Grand Prix,17.0,49.0
-MAG,Haas F1 Team,Azerbaijan Grand Prix,2.0,13.0
-MAG,Haas F1 Team,Japanese Grand Prix,1.0,4.0
-MAG,Haas F1 Team,Las Vegas Grand Prix,8.0,24.0
-MAG,Haas F1 Team,Saudi Arabian Grand Prix,0.0,0.0
-MAG,Haas F1 Team,Australian Grand Prix,0.0,1.0
-MAG,Haas F1 Team,Canadian Grand Prix,1.0,4.0
-MAG,Haas F1 Team,Mexico City Grand Prix,2.0,16.0
-MAG,Haas F1 Team,Bahrain Grand Prix,0.0,0.0
-MAG,Haas F1 Team,Hungarian Grand Prix,1.0,12.0
-MAG,Haas F1 Team,Abu Dhabi Grand Prix,8.0,28.0
-MAG,Haas F1 Team,Singapore Grand Prix,2.0,14.0
-MAG,Haas F1 Team,Emilia Romagna Grand Prix,1.0,4.0
-MAG,Haas F1 Team,Monaco Grand Prix,1.0,4.0
-MAG,Haas F1 Team,Italian Grand Prix,1.0,12.0
-MAG,Haas F1 Team,Belgian Grand Prix,1.0,12.0
-MAG,Haas F1 Team,British Grand Prix,1.0,4.0
-MAG,Haas F1 Team,Spanish Grand Prix,1.0,4.0
-MAG,Haas F1 Team,Dutch Grand Prix,1.0,12.0
-TSU,RB,Dutch Grand Prix,15.0,20.0
-TSU,RB,Canadian Grand Prix,12.0,12.0
-TSU,RB,Italian Grand Prix,15.0,20.0
-TSU,RB,Azerbaijan Grand Prix,15.0,20.0
-TSU,RB,Mexico City Grand Prix,15.0,20.0
-TSU,RB,Australian Grand Prix,0.0,0.0
-TSU,RB,Saudi Arabian Grand Prix,0.0,0.0
-TSU,RB,Las Vegas Grand Prix,15.0,20.0
-TSU,RB,Monaco Grand Prix,8.0,8.0
-TSU,RB,Emilia Romagna Grand Prix,7.0,7.0
-TSU,RB,Japanese Grand Prix,6.0,6.0
-TSU,RB,Singapore Grand Prix,15.0,20.0
-TSU,RB,Bahrain Grand Prix,0.0,0.0
-TSU,RB,Hungarian Grand Prix,13.0,17.0
-TSU,RB,British Grand Prix,12.0,16.0
-TSU,RB,Belgian Grand Prix,15.0,19.0
-TSU,RB,Spanish Grand Prix,12.0,16.0
-TSU,RB,Abu Dhabi Grand Prix,17.0,22.0
-ALB,Williams,Abu Dhabi Grand Prix,12.0,16.0
-ALB,Williams,Bahrain Grand Prix,0.0,0.0
-ALB,Williams,British Grand Prix,2.0,2.0
-ALB,Williams,Hungarian Grand Prix,4.0,4.0
-ALB,Williams,Spanish Grand Prix,2.0,2.0
-ALB,Williams,Belgian Grand Prix,4.0,4.0
-ALB,Williams,Canadian Grand Prix,2.0,2.0
-ALB,Williams,Dutch Grand Prix,4.0,4.0
-ALB,Williams,Italian Grand Prix,4.0,4.0
-ALB,Williams,Monaco Grand Prix,0.0,0.0
-ALB,Williams,Azerbaijan Grand Prix,6.0,6.0
-ALB,Williams,Emilia Romagna Grand Prix,0.0,0.0
-ALB,Williams,Mexico City Grand Prix,12.0,16.0
-ALB,Williams,Australian Grand Prix,0.0,0.0
-ALB,Williams,Japanese Grand Prix,0.0,0.0
-ALB,Williams,Singapore Grand Prix,12.0,16.0
-ALB,Williams,Saudi Arabian Grand Prix,0.0,0.0
-ALB,Williams,Las Vegas Grand Prix,12.0,16.0
-ZHO,Kick Sauber,Italian Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Canadian Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Emilia Romagna Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Singapore Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Monaco Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Azerbaijan Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Abu Dhabi Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Japanese Grand Prix,0.0,0.0
-ZHO,Kick Sauber,British Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Spanish Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Belgian Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Dutch Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Bahrain Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Hungarian Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Mexico City Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Saudi Arabian Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Las Vegas Grand Prix,0.0,0.0
-ZHO,Kick Sauber,Australian Grand Prix,0.0,0.0
-HUL,Haas F1 Team,Emilia Romagna Grand Prix,3.0,4.0
-HUL,Haas F1 Team,Canadian Grand Prix,3.0,4.0
-HUL,Haas F1 Team,Monaco Grand Prix,3.0,4.0
-HUL,Haas F1 Team,Azerbaijan Grand Prix,11.0,13.0
-HUL,Haas F1 Team,Dutch Grand Prix,11.0,12.0
-HUL,Haas F1 Team,Belgian Grand Prix,11.0,12.0
-HUL,Haas F1 Team,British Grand Prix,3.0,4.0
-HUL,Haas F1 Team,Italian Grand Prix,11.0,12.0
-HUL,Haas F1 Team,Spanish Grand Prix,3.0,4.0
-HUL,Haas F1 Team,Bahrain Grand Prix,0.0,0.0
-HUL,Haas F1 Team,Hungarian Grand Prix,11.0,12.0
-HUL,Haas F1 Team,Saudi Arabian Grand Prix,0.0,0.0
-HUL,Haas F1 Team,Singapore Grand Prix,11.0,14.0
-HUL,Haas F1 Team,Australian Grand Prix,1.0,1.0
-HUL,Haas F1 Team,Las Vegas Grand Prix,15.0,24.0
-HUL,Haas F1 Team,Japanese Grand Prix,3.0,4.0
-HUL,Haas F1 Team,Mexico City Grand Prix,13.0,16.0
-HUL,Haas F1 Team,Abu Dhabi Grand Prix,19.0,28.0
-LAW,RB,Las Vegas Grand Prix,0.0,20.0
-LAW,RB,Abu Dhabi Grand Prix,0.0,22.0
-OCO,Alpine,Azerbaijan Grand Prix,4.0,11.0
-OCO,Alpine,Dutch Grand Prix,4.0,9.0
-OCO,Alpine,Canadian Grand Prix,0.0,1.0
-OCO,Alpine,Italian Grand Prix,4.0,11.0
-OCO,Alpine,Monaco Grand Prix,0.0,0.0
-OCO,Alpine,Emilia Romagna Grand Prix,0.0,0.0
-OCO,Alpine,British Grand Prix,2.0,7.0
-OCO,Alpine,Hungarian Grand Prix,2.0,7.0
-OCO,Alpine,Bahrain Grand Prix,0.0,0.0
-OCO,Alpine,Abu Dhabi Grand Prix,4.0,12.0
-OCO,Alpine,Mexico City Grand Prix,4.0,11.0
-OCO,Alpine,Australian Grand Prix,0.0,0.0
-OCO,Alpine,Saudi Arabian Grand Prix,0.0,0.0
-OCO,Alpine,Las Vegas Grand Prix,4.0,12.0
-OCO,Alpine,Belgian Grand Prix,2.0,7.0
-OCO,Alpine,Spanish Grand Prix,1.0,4.0
-OCO,Alpine,Singapore Grand Prix,4.0,11.0
-OCO,Alpine,Japanese Grand Prix,0.0,0.0
-BEA,Ferrari,Emilia Romagna Grand Prix,6.0,120.0
-BEA,Ferrari,Singapore Grand Prix,6.0,337.0
-BEA,Ferrari,Japanese Grand Prix,6.0,93.0
-BEA,Ferrari,Mexico City Grand Prix,6.0,353.0
-BEA,Ferrari,Australian Grand Prix,6.0,49.0
-BEA,Ferrari,Las Vegas Grand Prix,6.0,394.0
-BEA,Ferrari,Belgian Grand Prix,6.0,234.0
-BEA,Ferrari,Azerbaijan Grand Prix,6.0,319.0
-BEA,Ferrari,Hungarian Grand Prix,6.0,214.0
-BEA,Ferrari,British Grand Prix,6.0,203.0
-BEA,Ferrari,Canadian Grand Prix,6.0,185.0
-BEA,Ferrari,Italian Grand Prix,6.0,282.0
-BEA,Ferrari,Monaco Grand Prix,6.0,145.0
-BEA,Ferrari,Dutch Grand Prix,6.0,257.0
-BEA,Ferrari,Abu Dhabi Grand Prix,6.0,421.0
-BEA,Ferrari,Spanish Grand Prix,6.0,185.0
-COL,Williams,Las Vegas Grand Prix,4.0,16.0
-COL,Williams,Mexico City Grand Prix,4.0,16.0
-COL,Williams,Azerbaijan Grand Prix,0.0,6.0
-COL,Williams,Abu Dhabi Grand Prix,4.0,16.0
-COL,Williams,Singapore Grand Prix,4.0,16.0
-HAM,Mercedes,Azerbaijan Grand Prix,132.0,217.0
-HAM,Mercedes,Japanese Grand Prix,8.0,26.0
-HAM,Mercedes,Mexico City Grand Prix,142.0,254.0
-HAM,Mercedes,Emilia Romagna Grand Prix,10.0,34.0
-HAM,Mercedes,Canadian Grand Prix,25.0,66.0
-HAM,Mercedes,Singapore Grand Prix,134.0,234.0
-HAM,Mercedes,Monaco Grand Prix,18.0,49.0
-HAM,Mercedes,Italian Grand Prix,122.0,201.0
-HAM,Mercedes,Dutch Grand Prix,118.0,191.0
-HAM,Mercedes,Hungarian Grand Prix,78.0,146.0
-HAM,Mercedes,Spanish Grand Prix,38.0,94.0
-HAM,Mercedes,Belgian Grand Prix,93.0,166.0
-HAM,Mercedes,British Grand Prix,53.0,121.0
-HAM,Mercedes,Bahrain Grand Prix,0.0,0.0
-HAM,Mercedes,Saudi Arabian Grand Prix,6.0,16.0
-HAM,Mercedes,Las Vegas Grand Prix,154.0,276.0
-HAM,Mercedes,Abu Dhabi Grand Prix,172.0,319.0
-HAM,Mercedes,Australian Grand Prix,8.0,26.0
-BEA,Haas F1 Team,Abu Dhabi Grand Prix,1.0,28.0
-BEA,Haas F1 Team,Las Vegas Grand Prix,1.0,24.0
-BEA,Haas F1 Team,Mexico City Grand Prix,1.0,16.0
-BEA,Haas F1 Team,Singapore Grand Prix,1.0,14.0
-SAI,Ferrari,Azerbaijan Grand Prix,137.0,319.0
-SAI,Ferrari,Canadian Grand Prix,80.0,185.0
-SAI,Ferrari,Hungarian Grand Prix,99.0,214.0
-SAI,Ferrari,Mexico City Grand Prix,143.0,353.0
-SAI,Ferrari,Monaco Grand Prix,65.0,145.0
-SAI,Ferrari,Italian Grand Prix,125.0,282.0
-SAI,Ferrari,Belgian Grand Prix,107.0,234.0
-SAI,Ferrari,Dutch Grand Prix,115.0,257.0
-SAI,Ferrari,British Grand Prix,88.0,203.0
-SAI,Ferrari,Spanish Grand Prix,80.0,185.0
-SAI,Ferrari,Emilia Romagna Grand Prix,55.0,120.0
-SAI,Ferrari,Japanese Grand Prix,40.0,93.0
-SAI,Ferrari,Australian Grand Prix,15.0,49.0
-SAI,Ferrari,Abu Dhabi Grand Prix,183.0,421.0
-SAI,Ferrari,Saudi Arabian Grand Prix,15.0,27.0
-SAI,Ferrari,Bahrain Grand Prix,0.0,0.0
-SAI,Ferrari,Singapore Grand Prix,137.0,337.0
-SAI,Ferrari,Las Vegas Grand Prix,168.0,394.0
-RUS,Mercedes,Belgian Grand Prix,73.0,166.0
-RUS,Mercedes,Spanish Grand Prix,56.0,94.0
-RUS,Mercedes,British Grand Prix,68.0,121.0
-RUS,Mercedes,Bahrain Grand Prix,0.0,0.0
-RUS,Mercedes,Hungarian Grand Prix,68.0,146.0
-RUS,Mercedes,Las Vegas Grand Prix,122.0,276.0
-RUS,Mercedes,Saudi Arabian Grand Prix,10.0,16.0
-RUS,Mercedes,Australian Grand Prix,18.0,26.0
-RUS,Mercedes,Japanese Grand Prix,18.0,26.0
-RUS,Mercedes,Abu Dhabi Grand Prix,147.0,319.0
-RUS,Mercedes,Italian Grand Prix,79.0,201.0
-RUS,Mercedes,Dutch Grand Prix,73.0,191.0
-RUS,Mercedes,Azerbaijan Grand Prix,85.0,217.0
-RUS,Mercedes,Monaco Grand Prix,31.0,49.0
-RUS,Mercedes,Singapore Grand Prix,100.0,234.0
-RUS,Mercedes,Mexico City Grand Prix,112.0,254.0
-RUS,Mercedes,Emilia Romagna Grand Prix,24.0,34.0
-RUS,Mercedes,Canadian Grand Prix,41.0,66.0
-BOT,Kick Sauber,Canadian Grand Prix,0.0,0.0
-BOT,Kick Sauber,Dutch Grand Prix,0.0,0.0
-BOT,Kick Sauber,Belgian Grand Prix,0.0,0.0
-BOT,Kick Sauber,Hungarian Grand Prix,0.0,0.0
-BOT,Kick Sauber,Abu Dhabi Grand Prix,0.0,0.0
-BOT,Kick Sauber,Spanish Grand Prix,0.0,0.0
-BOT,Kick Sauber,British Grand Prix,0.0,0.0
-BOT,Kick Sauber,Monaco Grand Prix,0.0,0.0
-BOT,Kick Sauber,Bahrain Grand Prix,0.0,0.0
-BOT,Kick Sauber,Las Vegas Grand Prix,0.0,0.0
-BOT,Kick Sauber,Saudi Arabian Grand Prix,0.0,0.0
-BOT,Kick Sauber,Japanese Grand Prix,0.0,0.0
-BOT,Kick Sauber,Singapore Grand Prix,0.0,0.0
-BOT,Kick Sauber,Mexico City Grand Prix,0.0,0.0
-BOT,Kick Sauber,Australian Grand Prix,0.0,0.0
-BOT,Kick Sauber,Azerbaijan Grand Prix,0.0,0.0
-BOT,Kick Sauber,Emilia Romagna Grand Prix,0.0,0.0
-BOT,Kick Sauber,Italian Grand Prix,0.0,0.0
-PIA,McLaren,Hungarian Grand Prix,90.0,209.0
-PIA,McLaren,British Grand Prix,78.0,182.0
-PIA,McLaren,Bahrain Grand Prix,0.0,0.0
-PIA,McLaren,Abu Dhabi Grand Prix,213.0,467.0
-PIA,McLaren,Belgian Grand Prix,115.0,252.0
-PIA,McLaren,Emilia Romagna Grand Prix,32.0,69.0
-PIA,McLaren,Singapore Grand Prix,188.0,390.0
-PIA,McLaren,Monaco Grand Prix,44.0,99.0
-PIA,McLaren,Azerbaijan Grand Prix,163.0,352.0
-PIA,McLaren,Canadian Grand Prix,62.0,129.0
-PIA,McLaren,Dutch Grand Prix,133.0,280.0
-PIA,McLaren,Spanish Grand Prix,72.0,157.0
-PIA,McLaren,Italian Grand Prix,145.0,318.0
-PIA,McLaren,Las Vegas Grand Prix,207.0,452.0
-PIA,McLaren,Mexico City Grand Prix,203.0,430.0
-PIA,McLaren,Japanese Grand Prix,28.0,55.0
-PIA,McLaren,Australian Grand Prix,16.0,28.0
-PIA,McLaren,Saudi Arabian Grand Prix,4.0,12.0
+Driver,Constructor,RaceName,DriverPointsSoFar,ConstructorPointsSoFar,NextRacePosition
+VER,Red Bull Racing,Bahrain Grand Prix,0.0,0.0,1
+VER,Red Bull Racing,Emilia Romagna Grand Prix,77.0,141.0,1
+VER,Red Bull Racing,Japanese Grand Prix,51.0,97.0,1
+VER,Red Bull Racing,Australian Grand Prix,51.0,87.0,19
+VER,Red Bull Racing,Monaco Grand Prix,102.0,170.0,6
+VER,Red Bull Racing,Canadian Grand Prix,110.0,178.0,1
+VER,Red Bull Racing,Las Vegas Grand Prix,262.0,360.0,5
+VER,Red Bull Racing,Italian Grand Prix,218.0,311.0,6
+VER,Red Bull Racing,Mexico City Grand Prix,254.0,352.0,6
+VER,Red Bull Racing,Azerbaijan Grand Prix,226.0,323.0,5
+VER,Red Bull Racing,Dutch Grand Prix,200.0,285.0,2
+VER,Red Bull Racing,Spanish Grand Prix,135.0,203.0,1
+VER,Red Bull Racing,Hungarian Grand Prix,178.0,250.0,5
+VER,Red Bull Racing,Belgian Grand Prix,188.0,266.0,4
+VER,Red Bull Racing,British Grand Prix,160.0,232.0,2
+VER,Red Bull Racing,Singapore Grand Prix,236.0,333.0,2
+VER,Red Bull Racing,Saudi Arabian Grand Prix,26.0,44.0,1
+VER,Red Bull Racing,Abu Dhabi Grand Prix,272.0,371.0,6
+SAR,Williams,Canadian Grand Prix,0.0,2.0,20
+SAR,Williams,Belgian Grand Prix,0.0,4.0,17
+SAR,Williams,British Grand Prix,0.0,2.0,11
+SAR,Williams,Spanish Grand Prix,0.0,2.0,20
+SAR,Williams,Bahrain Grand Prix,0.0,0.0,20
+SAR,Williams,Saudi Arabian Grand Prix,0.0,0.0,14
+SAR,Williams,Hungarian Grand Prix,0.0,4.0,17
+SAR,Williams,Dutch Grand Prix,0.0,4.0,16
+SAR,Williams,Monaco Grand Prix,0.0,0.0,15
+SAR,Williams,Emilia Romagna Grand Prix,0.0,0.0,17
+SAR,Williams,Japanese Grand Prix,0.0,0.0,17
+RIC,RB,Australian Grand Prix,0.0,0.0,12
+RIC,RB,Singapore Grand Prix,5.0,20.0,18
+RIC,RB,Monaco Grand Prix,0.0,8.0,12
+RIC,RB,Belgian Grand Prix,4.0,19.0,10
+RIC,RB,Saudi Arabian Grand Prix,0.0,0.0,16
+RIC,RB,Hungarian Grand Prix,4.0,17.0,12
+RIC,RB,Spanish Grand Prix,4.0,16.0,15
+RIC,RB,Canadian Grand Prix,0.0,12.0,8
+RIC,RB,Emilia Romagna Grand Prix,0.0,7.0,13
+RIC,RB,Dutch Grand Prix,5.0,20.0,12
+RIC,RB,Italian Grand Prix,5.0,20.0,13
+RIC,RB,Japanese Grand Prix,0.0,6.0,19
+RIC,RB,British Grand Prix,4.0,16.0,13
+RIC,RB,Azerbaijan Grand Prix,5.0,20.0,13
+RIC,RB,Bahrain Grand Prix,0.0,0.0,13
+NOR,McLaren,Saudi Arabian Grand Prix,8.0,12.0,8
+NOR,McLaren,Belgian Grand Prix,137.0,252.0,5
+NOR,McLaren,Hungarian Grand Prix,119.0,209.0,2
+NOR,McLaren,Singapore Grand Prix,202.0,390.0,1
+NOR,McLaren,Spanish Grand Prix,85.0,157.0,2
+NOR,McLaren,Canadian Grand Prix,67.0,129.0,2
+NOR,McLaren,Dutch Grand Prix,147.0,280.0,1
+NOR,McLaren,Azerbaijan Grand Prix,189.0,352.0,4
+NOR,McLaren,Monaco Grand Prix,55.0,99.0,4
+NOR,McLaren,Mexico City Grand Prix,227.0,430.0,2
+NOR,McLaren,Japanese Grand Prix,27.0,55.0,5
+NOR,McLaren,Emilia Romagna Grand Prix,37.0,69.0,2
+NOR,McLaren,British Grand Prix,104.0,182.0,3
+NOR,McLaren,Las Vegas Grand Prix,245.0,452.0,6
+NOR,McLaren,Australian Grand Prix,12.0,28.0,3
+NOR,McLaren,Abu Dhabi Grand Prix,254.0,467.0,1
+NOR,McLaren,Bahrain Grand Prix,0.0,0.0,6
+NOR,McLaren,Italian Grand Prix,173.0,318.0,3
+GAS,Alpine,Australian Grand Prix,0.0,0.0,13
+GAS,Alpine,Italian Grand Prix,7.0,11.0,15
+GAS,Alpine,Saudi Arabian Grand Prix,0.0,0.0,20
+GAS,Alpine,Japanese Grand Prix,0.0,0.0,16
+GAS,Alpine,Azerbaijan Grand Prix,7.0,11.0,12
+GAS,Alpine,British Grand Prix,5.0,7.0,20
+GAS,Alpine,Abu Dhabi Grand Prix,8.0,12.0,7
+GAS,Alpine,Bahrain Grand Prix,0.0,0.0,18
+GAS,Alpine,Hungarian Grand Prix,5.0,7.0,20
+GAS,Alpine,Belgian Grand Prix,5.0,7.0,13
+GAS,Alpine,Singapore Grand Prix,7.0,11.0,17
+GAS,Alpine,Spanish Grand Prix,3.0,4.0,9
+GAS,Alpine,Las Vegas Grand Prix,8.0,12.0,20
+GAS,Alpine,Emilia Romagna Grand Prix,0.0,0.0,16
+GAS,Alpine,Monaco Grand Prix,0.0,0.0,10
+GAS,Alpine,Mexico City Grand Prix,7.0,11.0,10
+GAS,Alpine,Canadian Grand Prix,1.0,1.0,9
+GAS,Alpine,Dutch Grand Prix,5.0,9.0,9
+PER,Red Bull Racing,Las Vegas Grand Prix,98.0,360.0,10
+PER,Red Bull Racing,British Grand Prix,72.0,232.0,17
+PER,Red Bull Racing,Monaco Grand Prix,68.0,170.0,18
+PER,Red Bull Racing,Emilia Romagna Grand Prix,64.0,141.0,8
+PER,Red Bull Racing,Italian Grand Prix,93.0,311.0,8
+PER,Red Bull Racing,Mexico City Grand Prix,98.0,352.0,17
+PER,Red Bull Racing,Japanese Grand Prix,46.0,97.0,2
+PER,Red Bull Racing,Azerbaijan Grand Prix,97.0,323.0,17
+PER,Red Bull Racing,Australian Grand Prix,36.0,87.0,5
+PER,Red Bull Racing,Bahrain Grand Prix,0.0,0.0,2
+PER,Red Bull Racing,Abu Dhabi Grand Prix,99.0,371.0,20
+PER,Red Bull Racing,Saudi Arabian Grand Prix,18.0,44.0,2
+PER,Red Bull Racing,Spanish Grand Prix,68.0,203.0,8
+PER,Red Bull Racing,Hungarian Grand Prix,72.0,250.0,7
+PER,Red Bull Racing,Belgian Grand Prix,78.0,266.0,7
+PER,Red Bull Racing,Singapore Grand Prix,97.0,333.0,10
+PER,Red Bull Racing,Canadian Grand Prix,68.0,178.0,18
+PER,Red Bull Racing,Dutch Grand Prix,85.0,285.0,6
+ALO,Aston Martin,Italian Grand Prix,41.0,65.0,11
+ALO,Aston Martin,Azerbaijan Grand Prix,41.0,65.0,6
+ALO,Aston Martin,Dutch Grand Prix,40.0,64.0,10
+ALO,Aston Martin,Bahrain Grand Prix,0.0,0.0,9
+ALO,Aston Martin,Australian Grand Prix,12.0,13.0,8
+ALO,Aston Martin,Canadian Grand Prix,24.0,35.0,6
+ALO,Aston Martin,Mexico City Grand Prix,53.0,77.0,18
+ALO,Aston Martin,Japanese Grand Prix,16.0,25.0,6
+ALO,Aston Martin,Singapore Grand Prix,49.0,73.0,8
+ALO,Aston Martin,Las Vegas Grand Prix,53.0,77.0,11
+ALO,Aston Martin,Belgian Grand Prix,36.0,60.0,8
+ALO,Aston Martin,Emilia Romagna Grand Prix,24.0,33.0,19
+ALO,Aston Martin,Monaco Grand Prix,24.0,35.0,11
+ALO,Aston Martin,Saudi Arabian Grand Prix,2.0,3.0,5
+ALO,Aston Martin,British Grand Prix,32.0,49.0,8
+ALO,Aston Martin,Spanish Grand Prix,32.0,49.0,12
+ALO,Aston Martin,Abu Dhabi Grand Prix,53.0,77.0,9
+ALO,Aston Martin,Hungarian Grand Prix,36.0,59.0,11
+LEC,Ferrari,Italian Grand Prix,151.0,282.0,1
+LEC,Ferrari,Emilia Romagna Grand Prix,59.0,120.0,3
+LEC,Ferrari,Australian Grand Prix,28.0,49.0,2
+LEC,Ferrari,Japanese Grand Prix,47.0,93.0,4
+LEC,Ferrari,Saudi Arabian Grand Prix,12.0,27.0,3
+LEC,Ferrari,Bahrain Grand Prix,0.0,0.0,4
+LEC,Ferrari,Dutch Grand Prix,136.0,257.0,3
+LEC,Ferrari,Spanish Grand Prix,99.0,185.0,5
+LEC,Ferrari,Monaco Grand Prix,74.0,145.0,1
+LEC,Ferrari,Canadian Grand Prix,99.0,185.0,19
+LEC,Ferrari,Mexico City Grand Prix,204.0,353.0,3
+LEC,Ferrari,Las Vegas Grand Prix,220.0,394.0,4
+LEC,Ferrari,British Grand Prix,109.0,203.0,14
+LEC,Ferrari,Azerbaijan Grand Prix,176.0,319.0,2
+LEC,Ferrari,Abu Dhabi Grand Prix,232.0,421.0,3
+LEC,Ferrari,Belgian Grand Prix,121.0,234.0,3
+LEC,Ferrari,Hungarian Grand Prix,109.0,214.0,4
+LEC,Ferrari,Singapore Grand Prix,194.0,337.0,5
+STR,Aston Martin,Mexico City Grand Prix,24.0,77.0,11
+STR,Aston Martin,Australian Grand Prix,1.0,13.0,6
+STR,Aston Martin,Abu Dhabi Grand Prix,24.0,77.0,14
+STR,Aston Martin,Emilia Romagna Grand Prix,9.0,33.0,9
+STR,Aston Martin,Italian Grand Prix,24.0,65.0,19
+STR,Aston Martin,Bahrain Grand Prix,0.0,0.0,10
+STR,Aston Martin,Saudi Arabian Grand Prix,1.0,3.0,19
+STR,Aston Martin,Japanese Grand Prix,9.0,25.0,12
+STR,Aston Martin,Dutch Grand Prix,24.0,64.0,13
+STR,Aston Martin,Hungarian Grand Prix,23.0,59.0,10
+STR,Aston Martin,British Grand Prix,17.0,49.0,7
+STR,Aston Martin,Singapore Grand Prix,24.0,73.0,14
+STR,Aston Martin,Azerbaijan Grand Prix,24.0,65.0,19
+STR,Aston Martin,Spanish Grand Prix,17.0,49.0,14
+STR,Aston Martin,Belgian Grand Prix,24.0,60.0,11
+STR,Aston Martin,Las Vegas Grand Prix,24.0,77.0,15
+STR,Aston Martin,Canadian Grand Prix,11.0,35.0,7
+STR,Aston Martin,Monaco Grand Prix,11.0,35.0,14
+MAG,Haas F1 Team,Mexico City Grand Prix,2.0,16.0,7
+MAG,Haas F1 Team,Dutch Grand Prix,1.0,12.0,18
+MAG,Haas F1 Team,Emilia Romagna Grand Prix,1.0,4.0,12
+MAG,Haas F1 Team,Monaco Grand Prix,1.0,4.0,20
+MAG,Haas F1 Team,Canadian Grand Prix,1.0,4.0,12
+MAG,Haas F1 Team,Singapore Grand Prix,2.0,14.0,19
+MAG,Haas F1 Team,Australian Grand Prix,0.0,1.0,10
+MAG,Haas F1 Team,Japanese Grand Prix,1.0,4.0,13
+MAG,Haas F1 Team,Belgian Grand Prix,1.0,12.0,14
+MAG,Haas F1 Team,Saudi Arabian Grand Prix,0.0,0.0,12
+MAG,Haas F1 Team,Hungarian Grand Prix,1.0,12.0,15
+MAG,Haas F1 Team,Abu Dhabi Grand Prix,8.0,28.0,16
+MAG,Haas F1 Team,Italian Grand Prix,1.0,12.0,10
+MAG,Haas F1 Team,Bahrain Grand Prix,0.0,0.0,12
+MAG,Haas F1 Team,Spanish Grand Prix,1.0,4.0,17
+MAG,Haas F1 Team,Las Vegas Grand Prix,8.0,24.0,12
+MAG,Haas F1 Team,British Grand Prix,1.0,4.0,12
+TSU,RB,British Grand Prix,12.0,16.0,10
+TSU,RB,Abu Dhabi Grand Prix,17.0,22.0,12
+TSU,RB,Bahrain Grand Prix,0.0,0.0,14
+TSU,RB,Mexico City Grand Prix,15.0,20.0,20
+TSU,RB,Emilia Romagna Grand Prix,7.0,7.0,10
+TSU,RB,Monaco Grand Prix,8.0,8.0,8
+TSU,RB,Canadian Grand Prix,12.0,12.0,14
+TSU,RB,Japanese Grand Prix,6.0,6.0,10
+TSU,RB,Italian Grand Prix,15.0,20.0,20
+TSU,RB,Australian Grand Prix,0.0,0.0,7
+TSU,RB,Las Vegas Grand Prix,15.0,20.0,9
+TSU,RB,Belgian Grand Prix,15.0,19.0,16
+TSU,RB,Saudi Arabian Grand Prix,0.0,0.0,15
+TSU,RB,Singapore Grand Prix,15.0,20.0,12
+TSU,RB,Hungarian Grand Prix,13.0,17.0,9
+TSU,RB,Azerbaijan Grand Prix,15.0,20.0,20
+TSU,RB,Spanish Grand Prix,12.0,16.0,19
+TSU,RB,Dutch Grand Prix,15.0,20.0,17
+ALB,Williams,Las Vegas Grand Prix,12.0,16.0,19
+ALB,Williams,Japanese Grand Prix,0.0,0.0,20
+ALB,Williams,Australian Grand Prix,0.0,0.0,11
+ALB,Williams,Mexico City Grand Prix,12.0,16.0,19
+ALB,Williams,Dutch Grand Prix,4.0,4.0,14
+ALB,Williams,Azerbaijan Grand Prix,6.0,6.0,7
+ALB,Williams,Canadian Grand Prix,2.0,2.0,17
+ALB,Williams,Singapore Grand Prix,12.0,16.0,20
+ALB,Williams,Monaco Grand Prix,0.0,0.0,9
+ALB,Williams,Emilia Romagna Grand Prix,0.0,0.0,20
+ALB,Williams,Italian Grand Prix,4.0,4.0,9
+ALB,Williams,Spanish Grand Prix,2.0,2.0,18
+ALB,Williams,British Grand Prix,2.0,2.0,9
+ALB,Williams,Belgian Grand Prix,4.0,4.0,12
+ALB,Williams,Saudi Arabian Grand Prix,0.0,0.0,11
+ALB,Williams,Hungarian Grand Prix,4.0,4.0,14
+ALB,Williams,Bahrain Grand Prix,0.0,0.0,15
+ALB,Williams,Abu Dhabi Grand Prix,12.0,16.0,11
+ZHO,Kick Sauber,Abu Dhabi Grand Prix,0.0,0.0,13
+ZHO,Kick Sauber,Las Vegas Grand Prix,0.0,0.0,13
+ZHO,Kick Sauber,British Grand Prix,0.0,0.0,18
+ZHO,Kick Sauber,Hungarian Grand Prix,0.0,0.0,19
+ZHO,Kick Sauber,Belgian Grand Prix,0.0,0.0,19
+ZHO,Kick Sauber,Canadian Grand Prix,0.0,0.0,15
+ZHO,Kick Sauber,Spanish Grand Prix,0.0,0.0,13
+ZHO,Kick Sauber,Azerbaijan Grand Prix,0.0,0.0,14
+ZHO,Kick Sauber,Singapore Grand Prix,0.0,0.0,15
+ZHO,Kick Sauber,Australian Grand Prix,0.0,0.0,15
+ZHO,Kick Sauber,Italian Grand Prix,0.0,0.0,18
+ZHO,Kick Sauber,Japanese Grand Prix,0.0,0.0,18
+ZHO,Kick Sauber,Mexico City Grand Prix,0.0,0.0,15
+ZHO,Kick Sauber,Dutch Grand Prix,0.0,0.0,20
+ZHO,Kick Sauber,Monaco Grand Prix,0.0,0.0,16
+ZHO,Kick Sauber,Emilia Romagna Grand Prix,0.0,0.0,15
+ZHO,Kick Sauber,Bahrain Grand Prix,0.0,0.0,11
+ZHO,Kick Sauber,Saudi Arabian Grand Prix,0.0,0.0,18
+HUL,Haas F1 Team,Spanish Grand Prix,3.0,4.0,11
+HUL,Haas F1 Team,Mexico City Grand Prix,13.0,16.0,9
+HUL,Haas F1 Team,British Grand Prix,3.0,4.0,6
+HUL,Haas F1 Team,Japanese Grand Prix,3.0,4.0,11
+HUL,Haas F1 Team,Australian Grand Prix,1.0,1.0,9
+HUL,Haas F1 Team,Singapore Grand Prix,11.0,14.0,9
+HUL,Haas F1 Team,Canadian Grand Prix,3.0,4.0,11
+HUL,Haas F1 Team,Hungarian Grand Prix,11.0,12.0,13
+HUL,Haas F1 Team,Azerbaijan Grand Prix,11.0,13.0,11
+HUL,Haas F1 Team,Saudi Arabian Grand Prix,0.0,0.0,10
+HUL,Haas F1 Team,Las Vegas Grand Prix,15.0,24.0,8
+HUL,Haas F1 Team,Belgian Grand Prix,11.0,12.0,18
+HUL,Haas F1 Team,Bahrain Grand Prix,0.0,0.0,16
+HUL,Haas F1 Team,Abu Dhabi Grand Prix,19.0,28.0,8
+HUL,Haas F1 Team,Emilia Romagna Grand Prix,3.0,4.0,11
+HUL,Haas F1 Team,Dutch Grand Prix,11.0,12.0,11
+HUL,Haas F1 Team,Monaco Grand Prix,3.0,4.0,19
+HUL,Haas F1 Team,Italian Grand Prix,11.0,12.0,17
+LAW,RB,Abu Dhabi Grand Prix,0.0,22.0,17
+LAW,RB,Las Vegas Grand Prix,0.0,20.0,16
+LAW,RB,Mexico City Grand Prix,0.0,20.0,16
+OCO,Alpine,Mexico City Grand Prix,4.0,11.0,13
+OCO,Alpine,Hungarian Grand Prix,2.0,7.0,18
+OCO,Alpine,Saudi Arabian Grand Prix,0.0,0.0,13
+OCO,Alpine,Bahrain Grand Prix,0.0,0.0,17
+OCO,Alpine,Canadian Grand Prix,0.0,1.0,10
+OCO,Alpine,Singapore Grand Prix,4.0,11.0,13
+OCO,Alpine,Belgian Grand Prix,2.0,7.0,9
+OCO,Alpine,British Grand Prix,2.0,7.0,16
+OCO,Alpine,Spanish Grand Prix,1.0,4.0,10
+OCO,Alpine,Australian Grand Prix,0.0,0.0,16
+OCO,Alpine,Las Vegas Grand Prix,4.0,12.0,17
+OCO,Alpine,Italian Grand Prix,4.0,11.0,14
+OCO,Alpine,Japanese Grand Prix,0.0,0.0,15
+OCO,Alpine,Emilia Romagna Grand Prix,0.0,0.0,14
+OCO,Alpine,Monaco Grand Prix,0.0,0.0,17
+OCO,Alpine,Dutch Grand Prix,4.0,9.0,15
+OCO,Alpine,Azerbaijan Grand Prix,4.0,11.0,15
+BEA,Ferrari,Saudi Arabian Grand Prix,0.0,27.0,7
+COL,Williams,Singapore Grand Prix,4.0,16.0,11
+COL,Williams,Las Vegas Grand Prix,4.0,16.0,14
+COL,Williams,Azerbaijan Grand Prix,0.0,6.0,8
+COL,Williams,Mexico City Grand Prix,4.0,16.0,12
+COL,Williams,Italian Grand Prix,0.0,4.0,12
+COL,Williams,Abu Dhabi Grand Prix,4.0,16.0,19
+HAM,Mercedes,Bahrain Grand Prix,0.0,0.0,7
+HAM,Mercedes,Abu Dhabi Grand Prix,172.0,319.0,4
+HAM,Mercedes,Italian Grand Prix,122.0,201.0,5
+HAM,Mercedes,Azerbaijan Grand Prix,132.0,217.0,9
+HAM,Mercedes,Dutch Grand Prix,118.0,191.0,8
+HAM,Mercedes,Belgian Grand Prix,93.0,166.0,1
+HAM,Mercedes,Singapore Grand Prix,134.0,234.0,6
+HAM,Mercedes,Hungarian Grand Prix,78.0,146.0,3
+HAM,Mercedes,British Grand Prix,53.0,121.0,1
+HAM,Mercedes,Mexico City Grand Prix,142.0,254.0,4
+HAM,Mercedes,Monaco Grand Prix,18.0,49.0,7
+HAM,Mercedes,Canadian Grand Prix,25.0,66.0,4
+HAM,Mercedes,Spanish Grand Prix,38.0,94.0,3
+HAM,Mercedes,Australian Grand Prix,8.0,26.0,18
+HAM,Mercedes,Emilia Romagna Grand Prix,10.0,34.0,6
+HAM,Mercedes,Las Vegas Grand Prix,154.0,276.0,2
+HAM,Mercedes,Japanese Grand Prix,8.0,26.0,9
+HAM,Mercedes,Saudi Arabian Grand Prix,6.0,16.0,9
+BEA,Haas F1 Team,Azerbaijan Grand Prix,0.0,13.0,10
+SAI,Ferrari,Hungarian Grand Prix,99.0,214.0,6
+SAI,Ferrari,British Grand Prix,88.0,203.0,5
+SAI,Ferrari,Dutch Grand Prix,115.0,257.0,5
+SAI,Ferrari,Spanish Grand Prix,80.0,185.0,6
+SAI,Ferrari,Canadian Grand Prix,80.0,185.0,16
+SAI,Ferrari,Belgian Grand Prix,107.0,234.0,6
+SAI,Ferrari,Las Vegas Grand Prix,168.0,394.0,3
+SAI,Ferrari,Emilia Romagna Grand Prix,55.0,120.0,5
+SAI,Ferrari,Singapore Grand Prix,137.0,337.0,7
+SAI,Ferrari,Mexico City Grand Prix,143.0,353.0,1
+SAI,Ferrari,Monaco Grand Prix,65.0,145.0,3
+SAI,Ferrari,Azerbaijan Grand Prix,137.0,319.0,18
+SAI,Ferrari,Italian Grand Prix,125.0,282.0,4
+SAI,Ferrari,Japanese Grand Prix,40.0,93.0,3
+SAI,Ferrari,Australian Grand Prix,15.0,49.0,1
+SAI,Ferrari,Abu Dhabi Grand Prix,183.0,421.0,2
+SAI,Ferrari,Bahrain Grand Prix,0.0,0.0,3
+DOO,Alpine,Abu Dhabi Grand Prix,0.0,12.0,15
+RUS,Mercedes,Spanish Grand Prix,56.0,94.0,4
+RUS,Mercedes,Canadian Grand Prix,41.0,66.0,3
+RUS,Mercedes,British Grand Prix,68.0,121.0,19
+RUS,Mercedes,Monaco Grand Prix,31.0,49.0,5
+RUS,Mercedes,Mexico City Grand Prix,112.0,254.0,5
+RUS,Mercedes,Azerbaijan Grand Prix,85.0,217.0,3
+RUS,Mercedes,Belgian Grand Prix,73.0,166.0,20
+RUS,Mercedes,Hungarian Grand Prix,68.0,146.0,8
+RUS,Mercedes,Dutch Grand Prix,73.0,191.0,7
+RUS,Mercedes,Italian Grand Prix,79.0,201.0,7
+RUS,Mercedes,Saudi Arabian Grand Prix,10.0,16.0,6
+RUS,Mercedes,Las Vegas Grand Prix,122.0,276.0,1
+RUS,Mercedes,Emilia Romagna Grand Prix,24.0,34.0,7
+RUS,Mercedes,Japanese Grand Prix,18.0,26.0,7
+RUS,Mercedes,Australian Grand Prix,18.0,26.0,17
+RUS,Mercedes,Bahrain Grand Prix,0.0,0.0,5
+RUS,Mercedes,Singapore Grand Prix,100.0,234.0,4
+RUS,Mercedes,Abu Dhabi Grand Prix,147.0,319.0,5
+BOT,Kick Sauber,Spanish Grand Prix,0.0,0.0,16
+BOT,Kick Sauber,Dutch Grand Prix,0.0,0.0,19
+BOT,Kick Sauber,Italian Grand Prix,0.0,0.0,16
+BOT,Kick Sauber,Abu Dhabi Grand Prix,0.0,0.0,18
+BOT,Kick Sauber,Bahrain Grand Prix,0.0,0.0,19
+BOT,Kick Sauber,Azerbaijan Grand Prix,0.0,0.0,16
+BOT,Kick Sauber,British Grand Prix,0.0,0.0,15
+BOT,Kick Sauber,Belgian Grand Prix,0.0,0.0,15
+BOT,Kick Sauber,Monaco Grand Prix,0.0,0.0,13
+BOT,Kick Sauber,Hungarian Grand Prix,0.0,0.0,16
+BOT,Kick Sauber,Mexico City Grand Prix,0.0,0.0,14
+BOT,Kick Sauber,Japanese Grand Prix,0.0,0.0,14
+BOT,Kick Sauber,Australian Grand Prix,0.0,0.0,14
+BOT,Kick Sauber,Saudi Arabian Grand Prix,0.0,0.0,17
+BOT,Kick Sauber,Las Vegas Grand Prix,0.0,0.0,18
+BOT,Kick Sauber,Canadian Grand Prix,0.0,0.0,13
+BOT,Kick Sauber,Emilia Romagna Grand Prix,0.0,0.0,18
+BOT,Kick Sauber,Singapore Grand Prix,0.0,0.0,16
+PIA,McLaren,Italian Grand Prix,145.0,318.0,2
+PIA,McLaren,Abu Dhabi Grand Prix,213.0,467.0,10
+PIA,McLaren,Bahrain Grand Prix,0.0,0.0,8
+PIA,McLaren,Dutch Grand Prix,133.0,280.0,4
+PIA,McLaren,Azerbaijan Grand Prix,163.0,352.0,1
+PIA,McLaren,British Grand Prix,78.0,182.0,4
+PIA,McLaren,Belgian Grand Prix,115.0,252.0,2
+PIA,McLaren,Monaco Grand Prix,44.0,99.0,2
+PIA,McLaren,Canadian Grand Prix,62.0,129.0,5
+PIA,McLaren,Mexico City Grand Prix,203.0,430.0,8
+PIA,McLaren,Spanish Grand Prix,72.0,157.0,7
+PIA,McLaren,Singapore Grand Prix,188.0,390.0,3
+PIA,McLaren,Hungarian Grand Prix,90.0,209.0,1
+PIA,McLaren,Japanese Grand Prix,28.0,55.0,8
+PIA,McLaren,Emilia Romagna Grand Prix,32.0,69.0,4
+PIA,McLaren,Las Vegas Grand Prix,207.0,452.0,7
+PIA,McLaren,Australian Grand Prix,16.0,28.0,4
+PIA,McLaren,Saudi Arabian Grand Prix,4.0,12.0,4
