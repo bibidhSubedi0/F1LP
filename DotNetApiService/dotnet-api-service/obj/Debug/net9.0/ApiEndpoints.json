@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "F1B.Controllers.PredictionsController",
+    "Method": "GetPredictions",
+    "RelativePath": "api/Predictions/get-predictions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
